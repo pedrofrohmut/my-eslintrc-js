@@ -1,1 +1,1 @@
-"# My ESLint Configuration File" 
+# My ESLint Configuration File 
