@@ -18,9 +18,9 @@
   "plugins": ["react"],
   "rules": {
     "space-in-parens": [ 0, "always" ],
-    "semi": [0, "never"],
+    "semi": ["error", "never"],
     "quotes":  ["error", "double", { "avoidEscape": true }],
-    "indent": ["error", 2, { "SwitchCase": 1 }],
+    "indent": ["warn", 2, { "SwitchCase": 1 }],
     "no-multiple-empty-lines": [ 1, { "max": 1, "maxEOF": 0, "maxBOF": 0 } ],
     "no-use-before-define": [ "error", { "functions": false } ],
     "class-methods-use-this": [ 1 ],
@@ -29,6 +29,7 @@
     "camelcase": [ 1 ],
     "no-underscore-dangle" : [0, "always"],
 
+    "react/display-name": [ 0 ],
     "react/jsx-indent": [ "error", 2 ], 
     "react/jsx-uses-react": "error",
     "react/jsx-uses-vars": "error",
